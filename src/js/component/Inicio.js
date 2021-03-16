@@ -191,13 +191,13 @@ export class Tictactoe extends React.Component {
 			return (
 				<div>
 					<div className="row justify-content-center mt-4">
-						<h1 id="cabeza"> Juego Tic Tac Toe</h1>
+						<h1 id="cabeza"> Game Tic Tac Toe</h1>
 					</div>
 					<div
 						className="d-flex flex-column justify-content-center"
 						id="inicio">
 						<div className="m-4 ">
-							<h2>Elige tu arma</h2>
+							<h2>Choose your weapon</h2>
 						</div>
 						<form
 							onSubmit={() => {
@@ -243,7 +243,7 @@ export class Tictactoe extends React.Component {
 							<button
 								type="submit"
 								className="btn btn-primary btn-lg  m-4">
-								<strong>Iniciar juego</strong>
+								<strong>START GAME</strong>
 							</button>
 						</form>
 					</div>
@@ -265,7 +265,7 @@ export class Tictactoe extends React.Component {
 										Array(3).fill(null)
 									],
 									turnoX: true,
-									estado: "Haz la primer jugada",
+									estado: "MAKE YOUR FIRST MOVEMENT",
 									ganador: false
 								});
 							}}>
